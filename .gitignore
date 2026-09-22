@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+memo.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 작업용 결과물
+outputs(not)/
+
+# OS
+.DS_Store
+Thumbs.db
