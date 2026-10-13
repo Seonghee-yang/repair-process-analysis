@@ -5,6 +5,18 @@
 
 📄 분석 과정 전체(시각화 포함)는 포트폴리오 PDF 에 정리되어 있습니다. 이 문서는 프로젝트 요약이며, 코드와 설계 과정은 notebooks/에서 확인하실 수 있습니다.
 
+## 📊 Tableau Dashboard
+🔗 **[Tableau Public Dashboard](https://public.tableau.com/app/profile/.55641854/vizzes)**
+
+####  Dash1 - 현황 진단
+전체 프로세스 및 리드타임 구조
+
+#### Dash2 - 병목 구간 분석
+Waiting Time 및 담당자 전환 분석
+
+#### Dash3 - 시뮬레이션 결과
+시나리오 E 개선 효과
+
 
 ## 🎯 Analysis Objective
 > **"리드타임을 단축하면서 제한된 운영 자원을 어디에, 어떤 기준으로 배분해야 하는가?"**
@@ -252,20 +264,6 @@ $$\text{Priority Score} = \text{MinMax (Business Value)} * \text{MinMax(Operatio
   **4. 국소 병목(재수리·외주 공정) 운영 가이드라인 정립**
   - 재수리 및 외주 공정은 개별 Case의 SLA 및 지연 리스크를 줄이기 위한 SOP와 모니터링 기준을 마련합니다. 
   - 재수리·외주 지연 50% 단축 가정 시 전체 리드타임 최대 ▼0.66h 개선 효과가 있습니다.
-
-
-
-## 📊 Tableau Dashboard
-🔗 **[Tableau Public Dashboard]("https://public.tableau.com/app/profile/.55641854/vizzes")**
-
-####  Dash1 - 현황 진단
-전체 프로세스 및 리드타임 구조
-
-#### Dash2 - 병목 구간 분석
-Waiting Time 및 담당자 전환 분석
-
-#### Dash3 - 시뮬레이션 결과
-시나리오 E 개선 효과
 
 
 ## 📁 Repository Structure
