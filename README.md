@@ -284,12 +284,12 @@ repair-process-analysis/
 │   └── 05_improvement_strategy.ipynb
 │
 │
-└── outputs/
-    ├── process_flow.png
-    ├── lead_time_distribution.png
-    ├── bottleneck_analysis.png
-    ├── hypothesis_results.png
-    └── simulation_results.png
+└── sql/
+    ├── 01_analysis.sql
+    ├── 02_case_flow.sql
+    ├── 03_process_analysis.sql
+    ├── 04_waiting_handover.sql
+    └── 05_repair_analysis.sql
 ```
 ## 💡 What I Learned
 처음에는 **"리드타임이 왜 긴가?"**를 설명하는 데 집중하여 가장 큰 병목 구간을 찾는 것에 초점을 맞췄습니다.
