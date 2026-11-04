@@ -5,6 +5,18 @@
 
 📄 분석 과정 전체(시각화 포함)는 포트폴리오 PDF 에 정리되어 있습니다. 이 문서는 프로젝트 요약이며, 코드와 설계 과정은 notebooks/에서 확인하실 수 있습니다.
 
+## 📊 Tableau Dashboard
+🔗 **[Tableau Public Dashboard](https://public.tableau.com/app/profile/.55641854/vizzes)**
+
+####  Dash1 - 현황 진단
+전체 프로세스 및 리드타임 구조
+
+#### Dash2 - 병목 구간 분석
+Waiting Time 및 담당자 전환 분석
+
+#### Dash3 - 시뮬레이션 결과
+시나리오 E 개선 효과
+
 
 ## 🎯 Analysis Objective
 > **"리드타임을 단축하면서 제한된 운영 자원을 어디에, 어떤 기준으로 배분해야 하는가?"**
@@ -254,20 +266,6 @@ $$\text{Priority Score} = \text{MinMax (Business Value)} * \text{MinMax(Operatio
   - 재수리·외주 지연 50% 단축 가정 시 전체 리드타임 최대 ▼0.66h 개선 효과가 있습니다.
 
 
-
-## 📊 Tableau Dashboard
-🔗 **[Tableau Public Dashboard]("https://public.tableau.com/app/profile/.55641854/vizzes")**
-
-####  Dash1 - 현황 진단
-전체 프로세스 및 리드타임 구조
-
-#### Dash2 - 병목 구간 분석
-Waiting Time 및 담당자 전환 분석
-
-#### Dash3 - 시뮬레이션 결과
-시나리오 E 개선 효과
-
-
 ## 📁 Repository Structure
 
 ```
@@ -286,12 +284,12 @@ repair-process-analysis/
 │   └── 05_improvement_strategy.ipynb
 │
 │
-└── outputs/
-    ├── process_flow.png
-    ├── lead_time_distribution.png
-    ├── bottleneck_analysis.png
-    ├── hypothesis_results.png
-    └── simulation_results.png
+└── sql/
+    ├── 01_analysis.sql
+    ├── 02_case_flow.sql
+    ├── 03_process_analysis.sql
+    ├── 04_waiting_handover.sql
+    └── 05_repair_analysis.sql
 ```
 ## 💡 What I Learned
 처음에는 **"리드타임이 왜 긴가?"**를 설명하는 데 집중하여 가장 큰 병목 구간을 찾는 것에 초점을 맞췄습니다.
